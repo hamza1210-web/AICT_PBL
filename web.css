@@ -1,0 +1,244 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Body and Font Settings */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000d6;
+    color: #ffffff;
+    width: 100%;
+}
+
+/* Header Styling */
+header {
+    width: 100%;
+    background-color: #df8d2e;
+    color: #ffffff;
+    padding: 20px;
+}
+
+header .mainheader {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header .logo {
+    background-color: #df8d2e;
+    height: 100%;
+    width: 100%;
+}
+header .logo img {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+header .companyname {
+    background-color: #df8d2e;
+    height: 100%;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+header .t {
+    color: #000000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 70px;
+    font-style: italic;
+    text-decoration: underline;
+    justify-content: center;
+}
+
+header h1 {
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+header .searchbar {
+    background-color: #df8d2e;
+    height: 100%;
+    width: 100%;
+    margin: 20px;
+    display: flex;
+}
+header .searchbar input {
+    width: 95%;
+    background-color: #fff2f2;
+}
+
+header button {
+    background-color: #0000008d;
+    width: 40px;
+    height: 37.5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+
+/* Navigation Menu */
+nav {
+    width: 100%;
+    text-align: center;
+    background-color: #444;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.hero {
+    
+    margin: 40px;
+    height: 1300px;
+    width: 95%;
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation-name: myani;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes myani {
+    0%{background-image: url(images/anim/11.jpg);}
+    10%{background-image: url(images/anim/2.jfif);}
+    20%{background-image: url(images/anim/3.webp);}
+    30%{background-image: url(images/anim/4.webp);}
+    40%{background-image: url(images/anim/5.jfif);}
+    50%{background-image: url(images/anim/6.jpg);}
+    60%{background-image: url(images/anim/7.jfif);}
+    70%{background-image: url(images/anim/8.jpg);}
+    80%{background-image: url(images/anim/9.jpg);}
+    90%{background-image: url(images/anim/10.jpg);}
+}
+
+/* About Section */
+#about {
+    margin: 15px;
+    padding: 50px 30px;
+    text-align: center;
+    background-color: #f4e3e3;
+    border-radius: 10px;
+    color: #000000;
+}
+
+#about h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: black;
+    
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+section .mainabout {
+    display: inline-flex;
+    column-gap: 30px;
+    justify-content: center;
+    
+}
+section .about1 {
+    background-color: #df8d2e;
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    padding: 20px;
+    color: #ffffff;
+    border-radius: 100%;
+    
+}
+
+
+/* Contact Section */
+#contact {
+    margin: 15px;
+    padding: 50px 30px;
+    background-color: #f4e3e3;
+    text-align: center;
+    border-radius: 10px;
+    color: #000000;
+}
+
+#contact h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+#contact p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+form {
+    scroll-padding-block-start: 10px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h4 {
+    color: #000000ad;
+    margin-bottom: 15px;
+    
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00000095;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #000000;
+}
+/* Footer Styling */
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+}

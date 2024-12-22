@@ -1,0 +1,107 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://wallpapercave.com/wp/1C6G3g0.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+header {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+header .logo1 img{
+    width: 100px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 0%;
+}
+header .t {
+    color: #cf7b21;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 70px;
+    font-style: italic;
+    text-decoration: underline;
+}
+header .logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    padding-right: 80px;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ff6600;
+}
+
+
+main {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #333;
+    border: 2px solid #f05454;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card h2 {
+    color: #f05454;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+h1 {
+    color: hsl(0, 0%, 100%);
+}
+h2{
+    color: hsl(0, 0%, 100%);
+}
+p {
+    color: hsl(0, 0%, 100%);
+}
