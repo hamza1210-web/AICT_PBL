@@ -1,2 +1,5 @@
 # AICT_PBL
-aict pbl submitted by 20, 26, 45
+AICT PBL submitted by
+1. HAMZA WASEEM KHAN (020)
+2. MUHAMMAD ASIM (045)
+3. MUHAMMAD ABDULLAH (026)
